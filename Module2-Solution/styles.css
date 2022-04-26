@@ -1,0 +1,28 @@
+body {font: Helvetica, sans-serif}
+
+.row {
+	margin-bottom: 15px;
+}
+
+.row > div {
+	border: 2px solid red;
+	background-color: gray;
+}
+
+@media (min-width: 992px) {
+  #p1 {
+    width: 80%;
+  }
+  #p2 {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (min-width: 768px and 991px) {
+
+}
+
+@media (max-width: 767px) {
+	
+}
