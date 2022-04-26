@@ -1,7 +1,8 @@
 .row {
-	margin-bottom: 15px
+	margin-bottom: 15px;
 }
-. row > div {
-	border: 2px solidred
-	background-color: gray
+
+.row > div {
+	border: 2px solidred;
+	background-color: gray;
 }
