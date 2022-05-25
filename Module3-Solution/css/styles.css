@@ -11,6 +11,11 @@ body {
   padding-top: 25px;
 }
 
+.container {
+  margin-bottom: -10px;
+  padding-bottom: 30px;
+}
+
 .navbar-brand h1 { /* Restaurant name */
   color: #FFF;
   font-weight: bold;
@@ -23,18 +28,16 @@ body {
 
 #header-nav {
   background-color: #660000;
-  height: 70px;
   border-radius: 0;
   border: 0;
 }
 
-#nav-list {
-  margin-top: 10px;
-}
-
 #nav-list a {
-  color: solid black;
+  color: solid white;
+  background-color: #660000;
   text-align: center;
+  font-size: 1.3em;
+  line-height: 1.5;
 }
 
 #nav-list a:hover {
@@ -48,11 +51,11 @@ body {
 .navbar-header button.navbar-toggle {
   border: 2px solid grey;
   clear: both;
-  margin-top: -30px;
 }
 
-.container {
-  padding-bottom: 30px;
+#topic {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .food {
@@ -69,9 +72,24 @@ body {
   background-color: #E2B99E;
 }
 
+.row {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
 
 @media (max-width: 767px) {
  
+.container {
+  margin-bottom: -30px;
+}
+
+#topic {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
  .sub {
   box-sizing: border-box;
   background-color: #E2B99E;
