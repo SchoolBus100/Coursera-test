@@ -70,3 +70,11 @@ body {
 }
 
 
+@media (max-width: 767px) {
+ 
+ .sub {
+  box-sizing: border-box;
+  background-color: #E2B99E;
+  margin-top: 40px;
+}
+
